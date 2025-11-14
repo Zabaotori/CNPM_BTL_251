@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <!-- ================= NAVBAR ================= -->
+    <nav class="w-full bg-cyan-700 text-white px-6 py-3 flex justify-between items-center">
+        <div class="flex items-center gap-5 fs-2">
+            <img src="./img/01_logobachkhoasang.png" class="w-20 ">
+            <a href="#" class="hover:underline transition duration-500">Trang chủ</a>
+            <a href="#" class="hover:underline">Buổi tư vấn</a>
+            <a href="#" class="hover:underline">Lịch của tôi</a>
+            <a href="#" class="hover:underline">Giảng viên</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+            <i data-lucide="bell" class="w-5"></i>
+            <i data-lucide="message-circle" class="w-5"></i>
+            <img src="avatar.png" class="w-10 h-10 rounded-full border">
+        </div>
+    </nav>
+
+    <!-- ================= SLIDER ================= -->
+    <div class="relative w-full h-[600px] overflow-hidden">
+        <div class="slide absolute inset-0 opacity-100 transition-opacity duration-700">
+            <img src="./img/bgMain.jpg" class="w-full h-full object-cover">
+            <div class="absolute top-20 left-10 bg-black/50 text-white p-10 rounded-lg w-[40%]">
+                <h1 class="text-5xl font-semibold mb-5 leading-tight">
+                    Thông tin Hoạt động Sinh viên<br>(Info. Student Affairs)
+                </h1>
+                <button class="px-6 py-3 bg-blue-500 rounded text-lg hover:bg-blue-600">
+                    Xem (View)
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
