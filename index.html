@@ -29,26 +29,45 @@
         </div>
 
         <div class="flex items-center space-x-4">
-            <i data-lucide="bell" class="w-5"></i>
-            <i data-lucide="message-circle" class="w-5"></i>
+            <button class=" cursor-pointer">
+                <i data-lucide="bell" class="w-5"></i>
+            </button>
+            <button class="cursor-pointer">
+                <i data-lucide="message-circle" class="w-5"></i>
+            </button>
             <img src="avatar.png" class="w-10 h-10 rounded-full border">
         </div>
     </nav>
 
-    <!-- ================= SLIDER ================= -->
-    <div class="relative w-full h-[600px] overflow-hidden">
-        <div class="slide absolute inset-0 opacity-100 transition-opacity duration-700">
-            <img src="./img/bgMain.jpg" class="w-full h-full object-cover">
-            <div class="absolute top-20 left-10 bg-black/50 text-white p-10 rounded-lg w-[40%]">
-                <h1 class="text-5xl font-semibold mb-5 leading-tight">
-                    Thông tin Hoạt động Sinh viên<br>(Info. Student Affairs)
-                </h1>
-                <button class="px-6 py-3 bg-blue-500 rounded text-lg hover:bg-blue-600">
-                    Xem (View)
-                </button>
+    <div>
+        <div class="relative w-full h-[600px] overflow-hidden">
+            <div class="inset-0 opacity-100 transition-opacity duration-700">
+                <img src="./img/bgMain.jpg" class="w-full h-full object-cover">
+                <div class="absolute top-20 left-10 bg-black/50 text-white p-10 rounded-lg w-[40%]">
+                    <h1 class="text-5xl font-semibold mb-5 leading-tight">
+                        Thông tin Hoạt động Sinh viên<br>(Info. Student Affairs)
+                    </h1>
+                    <button class="px-6 cursor-pointer py-3 bg-blue-500 rounded text-lg hover:bg-blue-600">
+                        Xem (View)
+                    </button>
+                </div>
             </div>
         </div>
+
+        <div class="p-20"></div>
+
     </div>
+
+    <footer class=" bg-neutral-700">
+        <div class=" container px-15 py-10 leading-8 text-white">
+            <h3 class=" font-bold">Tổ kỹ thuật / Technician</h3>
+            <p>Email : ddthu@hcmut.edu.vn</p>
+            <p>Quý Thầy/Cô chưa có tài khoản (hoặc quên mật khẩu) nhà trường vui lòng liên hệ Trung tâm Dữ liệu & Công nghệ Thông tin, phòng 109 nhà A5 để được hỗ trợ.</p>
+            <p>Email : dl-cntt@hcmut.edu.vn</p>
+            <p>ĐT (Tel.) : (84-8) 38647256 - 7200</p>
+        </div>
+        <div class="bg-black text-white text-center py-4">Copyright 2007-2023 BKEL - Phát triển dựa trên Moodle</div>
+    </footer>
 
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
